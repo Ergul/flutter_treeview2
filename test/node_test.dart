@@ -41,14 +41,14 @@ void main() {
         "key": "12345",
         "label": "Home",
       };
-      final expectedMap = {
+      /*final expectedMap = {
         "key": "12345",
         "label": "Home",
         "icon": null,
         "expanded": false,
         "parent": false,
         "children": [],
-      };
+      };*/
       final Node node = Node.fromMap(map);
       expect(node.key, '12345');
       expect(node.label, 'Home');
@@ -74,7 +74,7 @@ void main() {
           }
         ],
       };
-      final expectedMap = {
+      /*final expectedMap = {
         "label": "Home",
         "icon": null,
         "expanded": true,
@@ -97,7 +97,7 @@ void main() {
             "children": [],
           }
         ],
-      };
+      };*/
       final Node node = Node.fromMap(map);
       expect(node.key.isNotEmpty, true);
       expect(node.label, 'Home');
