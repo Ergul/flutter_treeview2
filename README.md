@@ -1,7 +1,7 @@
 # flutter_treeview2
 
 *** this is a fork of flutter_treeview2 from kevinandre see original version [https://bitbucket.org/kevinandre/flutter_treeview/src/master/](https://bitbucket.org/kevinandre/flutter_treeview/src/master/)
-it fixes [https://github.com/flutter/flutter/issues/85431](https://github.com/flutter/flutter/issues/85431)
+it fixes [https://github.com/flutter/flutter/issues/85431](https://github.com/flutter/flutter/issues/85431) and replaced deprecated methods.
 
 A hierarchical data widget for your flutter apps. 
 
